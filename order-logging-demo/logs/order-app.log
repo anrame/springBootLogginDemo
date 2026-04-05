@@ -1,0 +1,24 @@
+INFO  Starting OrderApplication using Java 17.0.1 with PID 16612 (C:\Users\Anitha\Downloads\order-logging-demo\target\classes started by Anitha in C:\Users\Anitha\Downloads\order-logging-demo)
+DEBUG Running with Spring Boot v3.2.0, Spring v6.1.1
+INFO  No active profile set, falling back to 1 default profile: "default"
+INFO  Started OrderApplication in 4.642 seconds (process running for 5.063)
+INFO  event=ORDER_REQUEST userId=101 amount=1000.0
+INFO  event=ORDER_CREATED id=1
+INFO  Starting OrderApplication using Java 17.0.1 with PID 21688 (C:\Users\Anitha\Downloads\order-logging-demo\target\classes started by Anitha in C:\Users\Anitha\Downloads\order-logging-demo)
+DEBUG Running with Spring Boot v3.2.0, Spring v6.1.1
+INFO  No active profile set, falling back to 1 default profile: "default"
+INFO  Started OrderApplication in 5.207 seconds (process running for 5.661)
+INFO  event=ORDER_REQUEST userId=101 amount=1000.0
+INFO  event=ORDER_CREATED id=1
+WARN  event=VALIDATION_FAILED
+WARN  field=amount message=must be greater than or equal to 1
+INFO  Starting OrderApplication using Java 17.0.1 with PID 22472 (C:\Users\Anitha\Downloads\order-logging-demo\target\classes started by Anitha in C:\Users\Anitha\Downloads\order-logging-demo)
+DEBUG Running with Spring Boot v3.2.0, Spring v6.1.1
+INFO  No active profile set, falling back to 1 default profile: "default"
+INFO  Started OrderApplication in 4.62 seconds (process running for 5.095)
+INFO  event=ORDER_REQUEST userId=101 amount=1000.0
+INFO  event=ORDER_CREATED id=1
+WARN  event=VALIDATION_FAILED
+WARN  field=amount message=must be greater than or equal to 1
+WARN  event=VALIDATION_FAILED
+WARN  field=userId message=must not be blank

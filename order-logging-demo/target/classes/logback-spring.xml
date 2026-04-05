@@ -1,0 +1,28 @@
+<configuration>
+
+    <!-- Console -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%-5level %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/order-app.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%-5level %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Disable everything -->
+    <root level="OFF"/>
+
+    <!-- ONLY your package -->
+    <logger name="com.example.order" level="DEBUG" additivity="false">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </logger>
+
+</configuration>
